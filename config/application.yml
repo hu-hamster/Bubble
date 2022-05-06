@@ -1,0 +1,10 @@
+Server:
+  port: 8888
+Database:
+  driverName: mysql
+  host: 172.21.172.31
+  port: 3306
+  database: bubble
+  username: root
+  password: 123456
+  charset: utf8
