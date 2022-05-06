@@ -60,7 +60,6 @@ func Update(id string) error {
 }
 
 func Delete(id string) error {
-	err := DB.Where(&model.Todo{}, id).Error
+	err := DB.Delete(&model.Todo{}, id).Error
 	return err
-
 }
